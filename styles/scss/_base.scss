@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif !important;
+    // font-style: normal;
+    // font-weight: normal;
+}
+
+.customP {
+    p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+p {
+    font-size: 16px;
+}
+
+.color-white {
+    &-border {
+        border-color: white !important;
+    }
+
+    &-bg {
+        background: white !important;
+    }
+}
+
+.font {
+    @for $a from 5 through 500 {
+        &-#{$a} {
+            font-size: #{$a}px !important;
+        }
+    }
+}
+
+.height {
+    @for $a from 5 through 5000 {
+        &-#{$a}px {
+            height: #{$a}px;
+        }
+    }
+}
+
+.color {
+    &-transparent {
+        &-bg {
+            background: transparent !important;
+        }
+    }
+}
+
+.mtc {
+    @for $a from 1 through 100 {
+        &-#{$a}vh {
+            margin-top: #{$a}vh !important;
+        }
+    }
+}
+
+.mbc {
+    @for $a from 1 through 100 {
+        &-#{$a}vh {
+            margin-bottom: #{$a}vh !important;
+        }
+    }
+}
+
+.hc {
+    @for $a from 1 through 100 {
+        &-#{$a}vh {
+            height: #{$a}vh !important;
+        }
+    }
+}
+
+.background {
+    &-size {
+        &-cover {
+            background-size: cover;
+        }
+
+        &-contain {
+            background-size: contain;
+        }
+    }
+}
