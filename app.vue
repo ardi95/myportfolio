@@ -17,6 +17,10 @@ const itemListMenu = [
     id: 'portfolio',
     label: 'Portfolio',
   },
+  {
+    id: 'skills',
+    label: 'Skills',
+  },
 ];
 
 // data
@@ -68,10 +72,18 @@ onMounted(() => {
   nextTick(() => {
     drawer.value = false;
   });
+
+  // Scroll to top on initial mount
+  scrollToTop();
 });
 
 onUnmounted(() => {
   window.removeEventListener('scroll', handleScroll);
+
+  // Ensure drawer is set to null only after hydration
+  nextTick(() => {
+    drawer.value = false;
+  });
 });
 </script>
 

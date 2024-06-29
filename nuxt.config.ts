@@ -25,5 +25,5 @@ export default defineNuxtConfig({
       },
     },
   },
-  css: ['~/styles/scss/main.scss'],
+  css: ['~/styles/scss/main.scss', 'animate.css/animate.min.css'],
 })

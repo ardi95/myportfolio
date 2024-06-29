@@ -11,6 +11,7 @@
     <about></about>
     <experience-education></experience-education>
     <portfolio></portfolio>
+    <skills></skills>
   </div>
 </template>
 
