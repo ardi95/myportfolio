@@ -13,6 +13,7 @@
     <portfolio></portfolio>
     <skills></skills>
     <certificates></certificates>
+    <contact></contact>
   </div>
 </template>
 

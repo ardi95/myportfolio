@@ -14,7 +14,7 @@
             md="6"
             lg="3"
           >
-            <v-card class="mx-auto" max-width="374" data-aos="zoom-in">
+            <v-card class="mx-auto" data-aos="zoom-in">
               <v-img
                 v-if="item.src.length"
                 :src="item.src[0]"

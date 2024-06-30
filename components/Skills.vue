@@ -93,7 +93,7 @@ const headers = [
 
 const items = ref([
   {
-    logo: '/static/images/skills/vue.png',
+    logo: '/static/images/skills/vue.svg',
     tools: 'Vue.js',
     experienceAt: '2018-04-01',
     experienceIn: [
@@ -117,7 +117,7 @@ const items = ref([
       'This is the framework I like the most in frontend technology.',
   },
   {
-    logo: '/static/images/skills/react.png',
+    logo: '/static/images/skills/react.svg',
     tools: 'React.js',
     experienceAt: '2018-12-01',
     experienceIn: [
@@ -165,7 +165,7 @@ const items = ref([
       'This is the backend framework I have used the longest since I was in college, especially when I used it for my final project.',
   },
   {
-    logo: '/static/images/skills/mysql.png',
+    logo: '/static/images/skills/mysql.svg',
     tools: 'MySQL',
     experienceAt: '2014-03-01',
     experienceIn: [

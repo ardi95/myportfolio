@@ -43,6 +43,14 @@ p {
     }
 }
 
+.width {
+    @for $a from 5 through 5000 {
+        &-#{$a}px {
+            width: #{$a}px;
+        }
+    }
+}
+
 .color {
     &-transparent {
         &-bg {
