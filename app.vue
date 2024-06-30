@@ -3,6 +3,12 @@ import { useDisplay } from 'vuetify';
 
 const display = useDisplay();
 
+useHead({
+  titleTemplate: () => {
+    return 'Resume Ardiansyah Pratama'
+  }
+})
+
 // list
 const itemListMenu = [
   {
@@ -20,6 +26,10 @@ const itemListMenu = [
   {
     id: 'skills',
     label: 'Skills',
+  },
+  {
+    id: 'certificate',
+    label: 'Certificate',
   },
 ];
 

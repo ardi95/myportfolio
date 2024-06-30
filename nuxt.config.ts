@@ -25,5 +25,12 @@ export default defineNuxtConfig({
       },
     },
   },
+  app: {
+    head: {
+      link: [
+        { rel: 'icon', type: 'image/jpeg', href: '/static/images/arzhicreative.jpg' }
+      ]
+    }
+  },
   css: ['~/styles/scss/main.scss', 'animate.css/animate.min.css'],
 })

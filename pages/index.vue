@@ -12,6 +12,7 @@
     <experience-education></experience-education>
     <portfolio></portfolio>
     <skills></skills>
+    <certificates></certificates>
   </div>
 </template>
 

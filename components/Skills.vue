@@ -293,6 +293,17 @@ const items = ref([
     description: '-',
   },
   {
+    logo: '/static/images/skills/jest.png',
+    tools: 'Test Driven Development',
+    experienceAt: null,
+    experienceIn: [
+      {
+        name: 'PT Telkom Indonesia'
+      }
+    ],
+    description: 'I TDD use jest and React Testing Library',
+  },
+  {
     logo: '/static/images/skills/express.png',
     tools: 'Express',
     experienceAt: null,
