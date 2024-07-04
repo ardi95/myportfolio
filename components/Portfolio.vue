@@ -52,7 +52,7 @@
       </v-col>
     </v-row>
 
-    <v-dialog v-model="statusDialogPortfolio" width="900" persistent scrollable>
+    <v-dialog v-model="statusDialogPortfolio" width="900" scrollable>
       <dialog-portfolio
         v-if="statusDialogPortfolio"
         :selectData="selectData"
